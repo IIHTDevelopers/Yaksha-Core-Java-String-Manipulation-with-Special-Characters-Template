@@ -1,0 +1,59 @@
+Project 2: String Manipulation with Special Characters
+Project Overview
+This project focuses on manipulating strings that contain special characters. Special characters are non-alphanumeric symbols like punctuation marks, spaces, escape sequences, or any character other than letters and numbers. Participants will learn how to handle such strings effectively using various string manipulation methods, including replacing, escaping, and checking for special characters. These skills are essential for tasks such as data sanitization, text processing, and building applications that handle diverse input formats.
+
+Learning Objectives
+By completing this project, participants will:
+
+Replace special characters in strings: Learn how to remove or replace non-alphanumeric characters.
+Escape special characters using regular expressions: Understand how to use escape sequences to handle special characters like quotes or backslashes within strings.
+Trim whitespace and special characters: Become familiar with trimming leading or trailing spaces or unwanted characters from strings.
+Check if a string contains special characters: Learn how to detect the presence of specific characters, such as punctuation marks, spaces, or escape sequences, within a string.
+Assessment Tasks
+Participants need to perform a series of operations on a string containing special characters. These tasks help ensure that participants can manipulate strings effectively when dealing with non-alphanumeric characters.
+
+1. Declare a String Containing Special Characters
+Task Description: Declare a string that includes special characters like punctuation marks, spaces, and escape sequences. A typical example could be "Hello, World! How's everything?", which contains spaces, punctuation, and a quotation mark.
+Expected Outcome:
+
+The string should contain non-alphanumeric characters that will be manipulated later.
+2. Replace Special Characters in a String
+Task Description: Replace non-alphanumeric characters (such as punctuation marks) with spaces or remove them entirely from the string. This can be done using regular expressions in Java, allowing you to either remove or substitute special characters.
+Expected Outcome:
+
+The string should be transformed to remove or replace unwanted special characters. For example, the string "Hello, World! How's everything?" could become "Hello World Hows everything" after removing punctuation marks.
+3. Escape Special Characters in a String
+Task Description: Escape special characters such as double quotes or backslashes in a string. Escape sequences are used to ensure that these characters are interpreted as part of the string rather than as special symbols in the code.
+Expected Outcome:
+
+The string should be transformed to properly escape any special characters. For example, if the string contains a quotation mark (") or a backslash (\), they should be escaped as \" and \\, respectively.
+4. Trim Whitespace and Special Characters
+Task Description: Remove any leading or trailing whitespace or special characters from the string. This operation is important for sanitizing input strings, especially in user input or data processing scenarios.
+Expected Outcome:
+
+The string should have no leading or trailing spaces or special characters, providing a clean version of the string. For example, " Hello, World! " should become "Hello, World!" after trimming.
+5. Check if a String Contains Special Characters
+Task Description: Check if the string contains any special characters, such as punctuation, whitespace, or other non-alphanumeric symbols. This can be done using regular expressions to look for patterns in the string.
+Expected Outcome:
+
+The result should be a boolean indicating whether the string contains special characters. For instance, checking the string "Hello, World!" should return true because it contains a comma and an exclamation mark.
+Steps for Participants
+Step 1: Declare a String Containing Special Characters
+Instruction: Start by declaring a string that contains special characters. The string could be a sentence or phrase that includes punctuation, spaces, or escape sequences. For example, "Hello, World! How's everything?".
+Explanation: Strings in Java can include any characters, and here you will focus on strings with characters outside of the regular alphabet and numeric characters.
+
+Step 2: Replace Special Characters in the String
+Instruction: Use a method to replace special characters in the string. You might want to remove punctuation marks or replace them with spaces. For example, replace commas, exclamation marks, and apostrophes with nothing, so that the string becomes "Hello World Hows everything".
+Explanation: This operation uses regular expressions to identify characters that are not letters or digits and replace them. This is useful when sanitizing data or cleaning up text for further processing.
+
+Step 3: Escape Special Characters
+Instruction: In this step, escape special characters such as double quotes (") or backslashes (\) within the string. For example, "Hello, World!" should become "Hello, World!" with quotes escaped, and any backslashes should be represented as \\.
+Explanation: Special characters like quotes or backslashes have specific meanings in Java code, so escaping them ensures they are treated as literal characters within the string.
+
+Step 4: Trim Leading and Trailing Special Characters
+Instruction: Trim any leading or trailing whitespace or special characters from the string. For example, if the string is " Hello, World! ", it should be trimmed to "Hello, World!".
+Explanation: This operation is helpful when processing user input or cleaning data that might have extra spaces or unwanted characters at the beginning or end.
+
+Step 5: Check if the String Contains Special Characters
+Instruction: Check if the string contains any special characters. You can use regular expressions to look for punctuation marks, spaces, or escape sequences. For example, check if "Hello, World!" contains special characters. It should return true since it includes a comma and an exclamation mark.
+Explanation: This check is useful when you need to verify whether a string contains certain types of characters, such as punctuation or symbols, which may be required for validation or further processing.
